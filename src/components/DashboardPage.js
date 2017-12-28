@@ -1,9 +1,34 @@
 import React from 'react';
+import WouloApp from './WouloApp';
+import BestWoulos from './BestWoulo';
+import CallToAdd from './CallToAdd';
+
+
+
+
+
+
+    
+  //Ajoute un WOULO ::::
+    // handleAddWoulo = (Woulo) => {
+    //     if(!Woulo){
+    //         return 'Enter valid value to add item';
+    //     }
+    //     else if(this.state.Woulos.indexOf(Woulo) > -1){
+    //         return 'this item already exist';
+    //     }
+
+    //     this.setState((prevState) => ({Woulos : prevState.Woulos.concat(Woulo)}));
+    // };
+
+   
 
 const DashboardPage = () => (
-  <div>
-    Dashboard page content
-  </div>
-);
-
+        <div>
+          <WouloApp />
+          <BestWoulos />
+          <CallToAdd />
+        </div>
+   );
+ 
 export default DashboardPage;

@@ -1,0 +1,172 @@
+/*
+* ==========================================================
+*     FOOTER
+* ==========================================================
+*/
+footer.main-footer {
+  padding: 150px 0 0;
+  overflow-x: hidden;
+}
+
+footer.main-footer a {
+  color: inherit;
+  text-decoration: none;
+}
+
+footer.main-footer .brand {
+  font-weight: 800;
+  font-size: 1.7rem;
+  color: #222;
+  margin-bottom: 20px;
+}
+
+footer.main-footer ul.contact-info {
+  color: #444;
+}
+
+footer.main-footer ul.contact-info a {
+  margin-bottom: 5px;
+}
+
+footer.main-footer ul.contact-info a:hover {
+  color: #5989e5;
+}
+
+footer.main-footer h5 {
+  margin-bottom: 30px;
+}
+
+footer.main-footer ul.links {
+  color: #888;
+}
+
+footer.main-footer ul.links a {
+  margin-bottom: 8px;
+}
+
+footer.main-footer ul.links a:hover {
+  color: #5989e5;
+}
+
+footer.main-footer ul.social-icons {
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+
+footer.main-footer ul.social-icons a {
+  width: 26px;
+  height: 26px;
+  line-height: 26px;
+  background: #222;
+  color: #fff;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 0.8rem;
+}
+
+footer.main-footer ul.social-icons a:hover {
+  background: #5989e5;
+}
+
+footer.main-footer .copyrights {
+  margin-top: 150px;
+}
+
+footer.main-footer .copyrights .container {
+  padding: 30px 0;
+  border-top: 1px solid #ddd;
+}
+
+footer.main-footer .copyrights p {
+  margin-bottom: 0;
+}
+
+footer.main-footer .copyrights a:hover {
+  color: #5989e5;
+}
+
+/* Footer Mediaquery -------------------------- */
+@media (max-width: 991px) {
+  footer.main-footer {
+    padding: 100px 0 0;
+  }
+  footer.main-footer .copyrights {
+    margin-top: 100px;
+  }
+  footer.main-footer .copyrights div[class*="col-"] {
+    text-align: center !important;
+  }
+}
+
+/*
+=========
+From bootstrap 
+=================
+*/
+
+@media (min-width: 768px) {
+    .col-md-6 {
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+      max-width: 50%;
+    }
+
+    .col-md-5 {
+        -ms-flex: 0 0 41.666667%;
+            flex: 0 0 41.666667%;
+        max-width: 41.666667%;
+      }
+
+      .col-md-7 {
+        -ms-flex: 0 0 58.333333%;
+            flex: 0 0 58.333333%;
+        max-width: 58.333333%;
+      }
+    
+    
+  }
+  
+  @media (min-width: 992px) {
+    .col-lg-3 {
+      -ms-flex: 0 0 25%;
+          flex: 0 0 25%;
+      max-width: 25%;
+    }
+   
+  }
+
+  .list-inline-item {
+  display: inline-block;
+}
+
+.list-inline-item:not(:last-child) {
+  margin-right: 5px;
+}
+
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col,
+.col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm,
+.col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md,
+.col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg,
+.col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl,
+.col-xl-auto {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.text-right {
+    text-align: right !important;
+  }
+
+.copyr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+
+  
+  
