@@ -38,15 +38,20 @@ class ModalAdd extends React.Component {
   render() {
     return (
       <div>
-        <Button color="danger" onClick={this.toggle}> Ajoute ton Woulo </Button>
+        <button className="btn-WA btn-danger-WA woulobutton" onClick={this.toggle}> Click ici ! </button>
         <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
-          <ModalHeader toggle={this.toggle}>Modal title</ModalHeader>
+          <ModalHeader toggle={this.toggle}>Tu veux partager ton Woulo ?</ModalHeader>
           <ModalBody>
-          <button onClick={this.facebookshare} >facebook</button>
+            <div className="modalfacebook">
+              <div className="box-layout__box">
+                <h1 className="box-layout__title">Etape 1</h1>
+                <p> Pour ajouter ton Woulo, il faut d'abord partager woulo.fr à tes amis </p>
+                <button className="loginBtn loginBtn--facebook" onClick={this.facebookshare} >Partager</button>
+              </div>
+            </div>
             </ModalBody>
           <ModalFooter>
-            <Button color="primary" onClick={this.toggle}>Do Something</Button>{' '}
-            <Button color="secondary" onClick={this.toggle}>Cancel</Button>
+            <Button color="secondary" onClick={this.toggle}>quitter</Button>
           </ModalFooter>
         </Modal>
       </div>

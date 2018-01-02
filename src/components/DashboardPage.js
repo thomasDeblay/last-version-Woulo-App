@@ -2,6 +2,7 @@ import React from 'react';
 import WouloApp from './WouloApp';
 import BestWoulos from './BestWoulo';
 import CallToAdd from './CallToAdd';
+import Footer from './Footer';
 
 
 
@@ -28,6 +29,7 @@ const DashboardPage = () => (
           <WouloApp />
           <BestWoulos />
           <CallToAdd />
+          <Footer />
         </div>
    );
  

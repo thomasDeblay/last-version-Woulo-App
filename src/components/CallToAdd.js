@@ -6,7 +6,7 @@ const CallToAdd = () => (
         <div className="container text-center">
             <div className="col-WA" >
                 <div className="row-WA" >
-                    <h2 className="jumbotron-heading-WA display-4-WA calltoaction__title"> <strong> Ajoute ton Woulo </strong></h2>
+                    <h2 className="jumbotron-heading-WA display-4-WA calltoaction__title"> <strong> Tu veux nous envoyer ton Woulo ? </strong></h2>
                     <div className="container" >
                     <br />
                     <ModalAdd />
