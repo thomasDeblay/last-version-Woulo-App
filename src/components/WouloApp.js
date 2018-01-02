@@ -2,7 +2,7 @@ import React from 'react';
 import Action from './Action';
 import PrintWoulo from './PrintWoulo';
 import AfficheWoulo from './AfficheWoulo';
-import * as firebase from 'firebase';
+import { firebase } from '../firebase/firebase';
 
 
 
