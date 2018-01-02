@@ -2,7 +2,7 @@ import React from 'react';
 import Action from './Action';
 import PrintWoulo from './PrintWoulo';
 import AfficheWoulo from './AfficheWoulo';
-import { firebase } from '../firebase/firebase';
+import database from '../firebase/firebase';
 
 
 
@@ -42,7 +42,7 @@ export default class WouloApp extends React.Component {
     }
 
     componentDidMount(){
-        const rootRef = firebase.database().ref().child('open');
+        const rootRef = database.ref().child('open');
         const wouloRef = rootRef.child('woulo');
         wouloRef.on('value', snap => {
             this.setState({
